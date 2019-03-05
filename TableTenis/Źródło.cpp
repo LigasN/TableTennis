@@ -1,0 +1,10 @@
+///////////////////////////////////////
+////Table Tenis Game
+////Programming Languages
+////Ligas Norbert; 05.01.2019r.
+///////////////////////////////////////
+#include"Game.h"
+
+int main() {
+	return Game();
+}

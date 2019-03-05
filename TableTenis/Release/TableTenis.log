@@ -1,0 +1,5 @@
+﻿Źródło.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+Źródło.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::White" (?White@Color@sf@@2V12@B)
+Źródło.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Red" (?Red@Color@sf@@2V12@B)
+Źródło.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Yellow" (?Yellow@Color@sf@@2V12@B)
+D:\Dokumenty\Pulpit\programming_stuff\projekt wersja robocza\TableTenis\Release\TableTenis.exe : fatal error LNK1120: 4 unresolved externals

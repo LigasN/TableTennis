@@ -1,0 +1,63 @@
+sf::Vector2f defaultPosition(100.0f * X_multiplier, 508.0f * Y_multiplier);
+
+		const char* direction = "n";
+		float ratioXY = std::sin(ballAngle) / std::cos(ballAngle);
+		sf::Vector2f botPosition(this->getPosition());
+		sf::Vector2f ballPosition(aim.getPosition());
+		sf::Vector2f crossPoint;
+		sf::Vector2f crossPointlast;
+		if (ratioXY * ballPosition.x < ballPosition.y) {
+			crossPoint.y = ballPosition.y - ratioXY * ballPosition.x;
+			crossPoint.x = 0.0f;
+		}
+		else  {
+			crossPoint.x = ballPosition.x - (1.0f / ratioXY) * ballPosition.y;
+			if(std::sin(ballAngle) > 0.0f) crossPoint.y = gameSize.y;
+			else crossPoint.y = 0.0f;
+		}
+
+
+		//if(crossPoint != crossPointlast) std::cout << crossPoint.x << ":\t" << crossPoint.y << "\t" << std::sin(ballAngle) << std::endl;
+		//crossPointlast = crossPoint;
+
+
+		//if (crossPoint.x > botPosition.x) { direction = "Right"; }
+		//else if (crossPoint.x < botPosition.x) { direction = "Left"; }
+		if (ballPosition.y > botPosition.y) { direction = "Down"; }
+		else if (ballPosition.y < botPosition.y) { direction = "Up"; }
+		//else if (ballPosition.y == botPosition.y) { this->resetPosition(); }
+
+		if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+			direction = "Left";
+		}
+		else if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
+			direction = "Right";
+		}
+
+		std::cout << "1\t" << botPosition.y << ":\t" << ballPosition.y << "\t" << gameSize.y / 2.0f << std::endl;
+		
+		if ((direction == "Up") && (this->getPosition().y - batSize.y / 2 > 0.f)) {
+			if (botPosition.y < gameSize.y / 2.0f) {
+				bat.move(batSpeed * deltaTime, -batSpeed*deltaTime);
+			}
+			else if (botPosition.y > gameSize.y / 2.0f) {
+				bat.move(-batSpeed * deltaTime, -batSpeed*deltaTime);
+			}
+		}
+		else if ((direction == "Down") && (botPosition.y + batSize.y / 2 < gameSize.y)) {
+			std::cout << botPosition.y << ":\t" << ballPosition.y << "\t" << gameSize.y / 2.0f << std::endl;
+			if (botPosition.y < gameSize.y / 2.0f) {
+				bat.move(-batSpeed * deltaTime, batSpeed*deltaTime);
+			}
+			else if (botPosition.y > gameSize.y / 2.0f) {
+				bat.move(batSpeed * deltaTime, batSpeed*deltaTime);
+			}
+		}
+		//if ((direction == "Left") &&
+		//	(this->getPosition().x > 10.0f)) {
+		//	bat.move(-batSpeed * deltaTime, 0.f);
+		//}
+		//else if ((direction == "Right") &&
+		//		(this->getPosition().x < 850.f*X_multiplier)) {
+		//	bat.move(batSpeed * deltaTime, 0.f);
+		//}
