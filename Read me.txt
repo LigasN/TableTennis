@@ -1,0 +1,42 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++XXXXXXX++++XX+++++ XXXXX+++XX++++XXXXX++++++++++++++++++++++++++++++++++
+++++++++++XX+++++XX+XX++++XX++XX++XX++++XX++++++++++++++++++++++++++++++++++++
+++++++++++XX++++XX+++XX+++XXXXX+++XX++++XXXX+++++++++++++++++++++++++++++++++++
+++++++++++XX++++XXXXXXX+++ XX++XX++XX++++ XX++++++++++++++++++++++++++++++++++++
+++++++++++XX++++XX+++XX+++XXXXX+++XXXXXX+XXXXX++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++XXXXXXXX++XXXXX++XX++++XX++XX++++XX++XX++XXXXX++++++++++
++++++++++++++++++++++++++++XX+++++XX++++ XXXX++ XX++XXXX++ XX++XX+XX+++++++++++++
++++++++++++++++++++++++++++XX+++++XXXX+++XX+XX+XX++XX+XX+ XX++XX++XXXX+++++++++++
++++++++++++++++++++++++++++XX+++++XX++++ XX++ XXXX++XX++ XXXX++XX++++XX++++++++++
++++++++++++++++++++++++++++XX+++++XXXXX++XX++++XX++XX++++XX++XX+XXXXX+++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+XXX												    XXX
+XXX												    XXX
+XXX		Player		\	Side	\	Control		\	Function		    XXX
+XXX		\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\	    XXX
+XXX		player1		\	right	\	Right		\	move right	    XXX
+XXX				\		\	Left		\	move left		    XXX		
+XXX				\		\	Up		\	move up		    XXX
+XXX				\		\	Down		\	move down	    XXX
+XXX		\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\	    XXX
+XXX		player2		\	right	\	Numpad6	\	move right	    XXX
+XXX				\		\	Numpad4	\	move left		    XXX
+XXX				\		\	Numpad8	\	move up		    XXX	
+XXX				\		\	Numpad5	\	move down	    XXX
+XXX		\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\	    XXX
+XXX		player1		\	left	\	D		\	move right	    XXX
+XXX				\		\	A		\	move left		    XXX
+XXX				\		\	W		\	move up		    XXX	
+XXX				\		\	S		\	move down	    XXX
+XXX		\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\	    XXX
+XXX		player2		\	left	\	J		\	move right	    XXX
+XXX				\		\	G		\	move left		    XXX
+XXX				\		\	Y		\	move up		    XXX
+XXX				\		\	H		\	move down	    XXX
+XXX		\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\   	    XXX
+XXX												    XXX		
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXTREBONXXXXXXX		
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
