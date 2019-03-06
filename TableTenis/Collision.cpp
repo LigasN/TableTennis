@@ -1,7 +1,5 @@
 #include "Collision.h"
 
-
-
 Collision::Collision(sf::CircleShape & attacker) :
 	attacker(attacker)
 {
